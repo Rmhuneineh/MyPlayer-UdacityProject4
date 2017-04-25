@@ -1,10 +1,10 @@
 package com.example.android.myplayer;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ListView;
-
-import java.util.ArrayList;
+import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,16 +13,56 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArrayList<Category> categoryList = new ArrayList<Category>();
-        categoryList.add(new Category(getString(R.string.albums)));
-        categoryList.add(new Category(getString(R.string.audioBooks)));
-        categoryList.add(new Category(getString(R.string.songs)));
-        categoryList.add(new Category(getString(R.string.playLists)));
+        TextView albumTextView = (TextView) findViewById(R.id.albums);
 
-        CategoryAdapter adapter = new CategoryAdapter(this, categoryList);
+        albumTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AlbumActivity.class);
+                startActivity(intent);
+            }
+        });
 
-        ListView listView = (ListView) findViewById(R.id.list_view);
-        listView.setAdapter(adapter);
+        TextView audioBooksTextView = (TextView) findViewById(R.id.audioBooks);
+
+        audioBooksTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AudioBooksActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView songsTextView = (TextView) findViewById(R.id.songs);
+
+        songsTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SongsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView playListsTextView = (TextView) findViewById(R.id.playLists);
+
+        playListsTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent  = new Intent(MainActivity.this, PlayListsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView nowPlayingTextView = (TextView) findViewById(R.id.now_playing);
+
+        nowPlayingTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, NowPlaying.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 
