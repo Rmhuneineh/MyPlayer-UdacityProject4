@@ -27,7 +27,7 @@ public class AlbumAdapter extends ArrayAdapter<Album> {
         View listItemView = convertView;
 
         if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.album_list_item,
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item,
                     parent, false);
         }
 
