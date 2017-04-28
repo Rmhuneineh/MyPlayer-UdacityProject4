@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:src="@drawable/ic_album"
+        android:src="@drawable/ic_audiobook"
         android:padding="8dp"/>
 
     <LinearLayout
@@ -18,17 +18,19 @@
         android:layout_margin="8dp">
 
         <TextView
-            android:id="@+id/albumName"
+            android:id="@+id/audioBookTitle"
             android:layout_width="wrap_content"
             android:layout_marginTop="16dp"
+            android:text="@string/audioBookTitle"
             android:layout_height="wrap_content"
             android:textColor="#000000"
             android:textSize="24sp"/>
 
         <TextView
-            android:id="@+id/artistName"
+            android:id="@+id/audioBookAuthor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/audioBookAuthor"
             android:textSize="20sp"
             android:textAlignment="center" />
 
