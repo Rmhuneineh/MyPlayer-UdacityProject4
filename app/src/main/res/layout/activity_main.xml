@@ -132,4 +132,9 @@
             android:src="@drawable/ic_arrow"/>
     </RelativeLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mainActivity"/>
+
 </LinearLayout>

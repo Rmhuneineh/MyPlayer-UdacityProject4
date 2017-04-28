@@ -13,4 +13,10 @@
     <string name="sampleSong">Us And Them</string>
     <string name="audioBookTitle">The Invisible Man</string>
     <string name="audioBookAuthor">H.G. Wells</string>
+    <string name="albumActivity">This activity shows the albums in  a list. Can be accessed from the main activity only. Pressing on an album will open the songs activity showing the songs in the album!</string>
+    <string name="audiobooksActivity">This activity shows the audio books in  a list. Can be accessed from the main activity only. Pressing on an audio book will open the now playing activity and play the audio book.</string>
+    <string name="mainActivity">This is the main activity which presents the choices for the user. This is the launching activity. Every other activity can be accessed only from here</string>
+    <string name="nowPayingActivity">This activity controls and shows the state of the song being played! </string>
+    <string name="playlistsActivity">This activity shows the playlist in a list. Can be accessed from th main activity only. Pressing on a playlist will open the songs activity showing the songs inside the playlist.</string>
+    <string name="songsActivity">This activity show the songs in a list. Can be accessed from the main activity only. Pressing on a song will open the now playing activity and play the song. Can be accessed only from main activity.</string>
 </resources>

@@ -76,4 +76,9 @@
             android:src="@drawable/ic_forward"/>
     </LinearLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nowPayingActivity"/>
+
 </LinearLayout>
