@@ -37,7 +37,7 @@
             android:src="@drawable/ic_low_volume"/>
 
         <SeekBar
-            android:id="@+id/seekBar"
+            android:id="@+id/volume"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="4"
@@ -61,14 +61,17 @@
         android:layout_marginBottom="8dp">
 
         <ImageView
+            android:id="@+id/previous"
             style="@style/Icons"
             android:src="@drawable/ic_back"/>
 
         <ImageView
+            android:id="@+id/play"
             style="@style/Icons"
             android:src="@drawable/ic_play"/>
 
         <ImageView
+            android:id="@+id/next"
             style="@style/Icons"
             android:src="@drawable/ic_forward"/>
     </LinearLayout>
