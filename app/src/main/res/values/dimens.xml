@@ -2,6 +2,7 @@
 <resources>
 
     <dimen name="icon_size">20dp</dimen>
+    <dimen name="image_size">90dp</dimen>
 
 
 

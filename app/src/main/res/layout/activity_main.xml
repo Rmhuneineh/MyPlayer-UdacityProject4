@@ -11,14 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="70dp">
 
+        <ImageView
+            android:id="@+id/albumImage"
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:padding="8dp"
+            android:src="@drawable/ic_album"/>
+
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:id="@+id/albums"
-            android:layout_margin="16dp"
+            android:layout_toRightOf="@id/albumImage"
             android:text="@string/albums"
-            android:textColor="@color/textColor"
-            android:textSize="24sp"/>
+            style="@style/Categories"/>
 
         <ImageView
             android:layout_width="@dimen/icon_size"
@@ -32,14 +36,18 @@
         android:layout_width="match_parent"
         android:layout_height="70dp">
 
+        <ImageView
+            android:id="@+id/audioBookImage"
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:padding="8dp"
+            android:src="@drawable/ic_audiobook"/>
+
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:id="@+id/audioBooks"
-            android:layout_margin="16dp"
+            android:layout_toRightOf="@id/audioBookImage"
             android:text="@string/audioBooks"
-            android:textColor="@color/textColor"
-            android:textSize="24sp"/>
+            style="@style/Categories"/>
 
         <ImageView
             android:layout_width="@dimen/icon_size"
@@ -53,14 +61,18 @@
         android:layout_width="match_parent"
         android:layout_height="70dp">
 
+        <ImageView
+            android:id="@+id/songImage"
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:padding="8dp"
+            android:src="@drawable/cd"/>
+
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:id="@+id/songs"
-            android:layout_margin="16dp"
+            android:layout_toRightOf="@id/songImage"
             android:text="@string/songs"
-            android:textColor="@color/textColor"
-            android:textSize="24sp"/>
+            style="@style/Categories"/>
 
         <ImageView
             android:layout_width="@dimen/icon_size"
@@ -74,14 +86,18 @@
         android:layout_width="match_parent"
         android:layout_height="70dp">
 
+        <ImageView
+            android:id="@+id/playlistImage"
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:padding="8dp"
+            android:src="@drawable/ic_playlist"/>
+
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:id="@+id/playLists"
-            android:layout_margin="16dp"
             android:text="@string/playLists"
-            android:textColor="@color/textColor"
-            android:textSize="24sp"/>
+            android:layout_toRightOf="@id/playlistImage"
+            style="@style/Categories"/>
 
         <ImageView
             android:layout_width="@dimen/icon_size"
@@ -95,14 +111,18 @@
         android:layout_width="match_parent"
         android:layout_height="70dp">
 
+        <ImageView
+            android:id="@+id/nowPlayingImage"
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:padding="8dp"
+            android:src="@drawable/cd"/>
+
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:id="@+id/now_playing"
-            android:layout_margin="16dp"
             android:text="@string/nowPlaying"
-            android:textColor="@color/textColor"
-            android:textSize="24sp"/>
+            android:layout_toRightOf="@id/nowPlayingImage"
+            style="@style/Categories"/>
 
         <ImageView
             android:layout_width="@dimen/icon_size"

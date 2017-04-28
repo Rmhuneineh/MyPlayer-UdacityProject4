@@ -8,4 +8,9 @@
     <string name="sampleSongName">Queens - Bohemian Rhapsody</string>
     <string name="sampleAlbumName">Kaleidoscope</string>
     <string name="sampleArtistName">Tiesto</string>
+    <string name="samplePlaylist">Gym</string>
+    <string name="sampleSongArtistName">Pink Floyd</string>
+    <string name="sampleSong">Us And Them</string>
+    <string name="audioBookTitle">The Invisible Man</string>
+    <string name="audioBookAuthor">H.G. Wells</string>
 </resources>
